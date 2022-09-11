@@ -23,7 +23,6 @@ public class Cat {
         this.name = nick;
     }
 
-
     public static void main(String[] args) {
         Cat peppy = new Cat();
         Cat sparky = new Cat();
@@ -43,6 +42,5 @@ public class Cat {
         sparky.eat("milk");
         sparky.giveNick("sparky");
         sparky.show();
-
     }
 }
